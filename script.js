@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Animated visitor counter
-const visitorCounter = document.querySelector(".visitorCounter");
+const counter = document.querySelector(".counter");
 if (counter) {
   let count = 87654;
     setInterval(() => {
