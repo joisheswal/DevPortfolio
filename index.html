@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RetroX Cinemas - Now Showing!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <img
+          src="Retrox Cinemalogo.jpg"
+          class="logo"
+          alt="RetroX Cinemas Logo"
+        />
+        <div class="marquee-container">
+          <p class="marquee-text">
+            NOW PLAYING: THE MATRIX • STAR WARS EPISODE I • THE MUMMY • THE
+            SIXTH SENSE • AMERICAN PIE
+            <span class="marquee-icon">🍿</span>
+            COMING SOON: X-MEN • GLADIATOR • SCARY MOVIE
+          </p>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <aside class="sidebar">
+          <nav class="main-nav">
+            <h2 class="sidebar-heading">Menu</h2>
+            <ul class="nav-list">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">Now Showing</a></li>
+              <li><a href="#" class="nav-link">Coming Soon</a></li>
+              <li><a href="#" class="nav-link">Prices</a></li>
+              <li><a href="#" class="nav-link">Directions</a></li>
+              <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <section class="specials">
+            <h2 class="sidebar-heading">Special Offers</h2>
+            <p class="special-offer">Tuesday Special: All seats $5!</p>
+            <p class="special-offer">Student Discount with ID</p>
+            <p class="special-offer">
+              Free Lightsaber toy with Family ticket of STAR WARS
+            </p>
+            <p class="special-offer">
+              Free Blockbuster movie rental with popcorn combo!
+            </p>
+          </section>
+
+          <div class="visitor-counter">
+            <h2 class="sidebar-heading">Visitor Count</h2>
+            <p class="counter">000087654</p>
+          </div>
+        </aside>
+
+        <main class="movie-listings">
+          <h1 class="main-heading">NOW SHOWING AT RETROX CINEMAS</h1>
+            <!--add a prompt to verify age when clicking 'buy tickets' button-->
+          <article class="movie-card">
+            <div class="movie-poster">
+              <img
+                src="matrix_ver1.jpg"
+                alt="The Matrix"
+                class="poster-image"
+              />
+            </div>
+            <div class="movie-details">
+              <h2 class="movie-title">THE MATRIX</h2>
+              <p class="movie-info">
+                <strong>Rating:</strong> 15 | <strong>Running Time:</strong> 136
+                min
+              </p>
+              <p class="movie-synopsis">
+                Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne),
+                an elusive figure considered to be the most dangerous man alive,
+                can answer his question -- What is the Matrix?
+              </p>
+              <p class="showtimes">
+                <strong>Showtimes:</strong> 12:30, 3:15, 6:00, 8:45
+              </p>
+              <button class="ticket-button">BUY TICKETS</button>
+            </div>
+          </article>
+
+          <article class="movie-card">
+            <div class="movie-poster">
+              <img
+                src="https://v1.imgix.net/imagecache/4/7/bmi-2_bmwcm-2.0_fid-880611_fwcm-2.5_ihcm-102.0_iwcm-69.0_lmwcm-2.0_maxdim-1000_mc-ffffff_rmwcm-2.0_si-473362.jpg_tmwcm-2.0.jpg?ixlib=rails-4.3.1&auto=compress&nr=20&nrs=20&q=50"
+                alt="Star Wars Episode I"
+                class="poster-image"
+              />
+            </div>
+            <div class="movie-details">
+              <h2 class="movie-title">
+                STAR WARS: EPISODE I - THE PHANTOM MENACE
+              </h2>
+              <p class="movie-info">
+                <strong>Rating:</strong> PG | <strong>Running Time:</strong> 133
+                min
+              </p>
+              <p class="movie-synopsis">
+                Two Jedi escape a hostile blockade to find allies and come
+                across a young boy who may bring balance to the Force, but the
+                long dormant Sith resurface to claim their old glory.
+              </p>
+              <p class="showtimes">
+                <strong>Showtimes:</strong> 1:00, 4:00, 7:00, 8:30
+              </p>
+              <button class="ticket-button">BUY TICKETS</button>
+            </div>
+          </article>
+
+          <article class="movie-card">
+            <div class="movie-poster">
+              <img
+                src="https://i.pinimg.com/originals/37/5a/f7/375af760bc2009ddb8591c5422539e71.jpg"
+                alt="The Mummy"
+                class="poster-image"
+              />
+            </div>
+            <div class="movie-details">
+              <h2 class="movie-title">THE MUMMY</h2>
+              <p class="movie-info">
+                <strong>Rating:</strong> PG-13 |
+                <strong>Running Time:</strong> 125 min
+              </p>
+              <p class="movie-synopsis">
+                At an archaeological dig in the ancient city of Hamunaptra, an
+                American serving in the French Foreign Legion accidentally
+                awakens a mummy who begins to wreck havoc as he searches for the
+                reincarnation of his long-lost love.
+              </p>
+              <p class="showtimes">
+                <strong>Showtimes:</strong> 12:45, 3:30, 6:15, 9:00
+              </p>
+              <button class="ticket-button">BUY TICKETS</button>
+            </div>
+          </article>
+
+          <div class="construction-notice">
+            <p>🚧 More movies coming soon! 🚧</p>
+          </div>
+        </main>
+
+        <aside class="sidebar right-sidebar">
+          <section class="now-playing">
+            <h2 class="sidebar-heading">Now Playing</h2>
+            <ul class="movie-list">
+              <li class="movie-item">The Matrix</li>
+              <li class="movie-item">Star Wars: Episode I</li>
+              <li class="movie-item">The Mummy</li>
+              <li class="movie-item">The Sixth Sense</li>
+              <li class="movie-item">American Pie</li>
+              <li class="movie-item">Notting Hill</li>
+            </ul>
+          </section>
+
+          <section class="coming-soon">
+            <h2 class="sidebar-heading">Coming Soon</h2>
+            <ul class="movie-list">
+              <li class="movie-item">X-Men</li>
+              <li class="movie-item">Gladiator</li>
+              <li class="movie-item">Scary Movie</li>
+              <li class="movie-item">Mission: Impossible 2</li>
+            </ul>
+          </section>
+
+          <section class="features">
+            <h2 class="sidebar-heading">Today's Features</h2>
+            <p class="feature">Digital Sound!</p>
+            <p class="feature">Stadium Seating!</p>
+            <p class="feature">Free Parking!</p>
+          </section>
+        </aside>
+      </div>
+
+      <footer class="site-footer">
+        <p>
+          &copy; <span id="current-year"></span> RetroX Cinemas. All Rights
+          Reserved.
+        </p>
+        <p>Website designed by <span class="designer">Josh Swales</span></p>
+        <p>Last Updated: <span id="last-modified"></span></p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
